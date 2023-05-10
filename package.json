@@ -1,0 +1,31 @@
+{
+  "name": "ponzu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:letsketit/canto-ponzu.git",
+  "author": "ponzu@pm.me",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "format": "prettier --write \"src/**/*.sol\" \"test/**/*.sol\" \"script/**/*.sol\"",
+    "codegen": "typechain --target ethers-v5 --out-dir src/contracts src/abi/*.abi"
+  },
+  "devDependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.4",
+    "@typechain/ethers-v5": "^10.2.1",
+    "@types/node": "^20.0.0",
+    "axios": "^1.4.0",
+    "chalk": "^4.1.2",
+    "ethers": "^5.1.2",
+    "prettier": "^2.8.8",
+    "prettier-plugin-solidity": "^1.1.3",
+    "solhint-plugin-prettier": "^0.0.5",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typechain": "^8.1.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "transactions": [
+    {
+      "hash": "0xb476e60dca6629d5095d945a90c282fa8f0395ab7683e805d4e62df4193ddc1e",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x4f1be0c227346e4FD6337c202C80901A06338a42",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://mainnode.plexnode.org:8545",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xb8155b0adf0408bbe433580df1c216105587ee60",
+        "to": "0x4f1be0c227346e4fd6337c202c80901a06338a42",
+        "gas": "0x1bafa",
+        "value": "0x0",
+        "data": "0xf430a58d",
+        "nonce": "0x14",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0xb476e60dca6629d5095d945a90c282fa8f0395ab7683e805d4e62df4193ddc1e",
+      "transactionIndex": "0x0",
+      "blockHash": "0xba1278ef367a80d3ff1a65170b0362401323a753440a5687c3744df376ec9fe2",
+      "blockNumber": "0x3f91b0",
+      "from": "0xb8155b0adf0408bBe433580dF1c216105587Ee60",
+      "to": "0x4f1be0c227346e4FD6337c202C80901A06338a42",
+      "cumulativeGasUsed": "0x140b6",
+      "gasUsed": "0x140b6",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0x3D020a43fC0487e6464DC9486844cADd95793Ef0",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000004f1be0c227346e4fd6337c202c80901a06338a42",
+            "0x0000000000000000000000005d422dc3e970dfcf79c1950614d67c60c975abbc"
+          ],
+          "data": "0x000000000000000000000000000000000000000000005e1d61b13e3b057dc000",
+          "blockHash": "0xba1278ef367a80d3ff1a65170b0362401323a753440a5687c3744df376ec9fe2",
+          "blockNumber": "0x3f91b0",
+          "transactionHash": "0xb476e60dca6629d5095d945a90c282fa8f0395ab7683e805d4e62df4193ddc1e",
+          "transactionIndex": "0x0",
+          "logIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000400000000000000000000000000400000000000000000000020000000000000000000000000000000000000000000008200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000400000000000000000040000000000000000000000800000000000000000000002000000000000000000000000000000000000000000000000000010000000000000000000000040000000000000000000000000000000000000000000",
+      "effectiveGasPrice": "0xf761ef6100"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/Users/josh/dev/canto-ponzu/broadcast/Debug.sol/7700/run-latest.json",
+  "returns": {},
+  "timestamp": 1683737229,
+  "chain": 7700,
+  "multi": false,
+  "commit": "917719e"
+}
